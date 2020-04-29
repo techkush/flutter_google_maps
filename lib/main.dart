@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:fluttergooglemaps/current_location.dart';
 import 'package:fluttergooglemaps/maps.dart';
+
 
 void main() {
   runApp(MyApp());

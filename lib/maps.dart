@@ -36,6 +36,7 @@ class _MapsDemoState extends State<MapsDemo> {
 
   _onCameraMove(CameraPosition position) {
     _lastMapPosition = position.target;
+    print(_lastMapPosition.latitude);
   }
 
   _onMapTypeButtonPress() {
